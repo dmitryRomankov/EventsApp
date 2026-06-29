@@ -1,0 +1,63 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.eventsystem"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <application
+11-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:2:5-16:19
+12        android:allowBackup="true"
+12-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:3:9-35
+13        android:debuggable="true"
+14        android:extractNativeLibs="false"
+15        android:label="Event System"
+15-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:5:9-37
+16        android:supportsRtl="true"
+16-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:6:9-35
+17        android:testOnly="true"
+18        android:theme="@style/AppTheme" >
+18-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:4:9-40
+19        <activity
+19-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:7:9-96
+20            android:name="com.example.eventsystem.UserProfileActivity"
+20-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:7:19-54
+21            android:screenOrientation="fullSensor" />
+21-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:7:55-93
+22        <activity
+22-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:8:9-94
+23            android:name="com.example.eventsystem.EditEventActivity"
+23-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:8:19-52
+24            android:screenOrientation="fullSensor" />
+24-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:8:53-91
+25        <activity
+25-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:9:9-97
+26            android:name="com.example.eventsystem.EventDetailsActivity"
+26-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:9:19-55
+27            android:screenOrientation="fullSensor" />
+27-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:9:56-94
+28        <activity
+28-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:10:9-15:20
+29            android:name="com.example.eventsystem.MainActivity"
+29-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:10:19-47
+30            android:exported="true"
+30-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:10:48-71
+31            android:screenOrientation="fullSensor" >
+31-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:10:72-110
+32            <intent-filter>
+32-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:11:13-14:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:12:17-69
+33-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:12:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:13:17-77
+35-->/Users/dromankov/Desktop/Learning/EHU/8th semester/Android/Proj/EventApp/app/src/main/AndroidManifest.xml:13:27-74
+36            </intent-filter>
+37        </activity>
+38    </application>
+39
+40</manifest>
