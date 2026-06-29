@@ -1,6 +1,7 @@
 # EventSystemApp
 
-Minimal Android Studio project written in Kotlin.
+Events management system     
+Part of Android dev course
 
 ## Features
 
